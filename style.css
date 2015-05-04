@@ -1,15 +1,43 @@
+h1 {
+  text-align: center;
+}
 #board {
-  width: 31em;
-  height: 30em;
+  width: 496px; 
+  height: 480px; 
   position: relative;
   top: 30px;
-  left: 25%;
+  left: 250px;
 }
 
 .box {
-  width: 10em;
-  height: 10em;
+  width: 160px;
+  height: 160px;
   border: 1px solid black;
   display: inline-block;
   margin-bottom: 4px;
+}
+
+.button {
+  
+  width: 200px;
+  font-family: sans-serif;
+  background-color: #e3e3e3;
+  line-height: 50px;
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px;
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+}
+.button:hover {
+  background-color: #333;
+  color: #e3e3e3;
+}
+
+#board {
+  position: center;
+
 }
